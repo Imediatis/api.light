@@ -1,0 +1,23 @@
+{
+    "name": "imediatis/api.light",
+    "description": "API pour le projet light",
+    "type": "project",
+    "authors": [{
+        "name": "Sylvin KAMDEM",
+        "email": "sylvin@imediatis.net"
+    }],
+    "require": {
+        "slim/slim": "^3.0",
+        "doctrine/orm": "2.5",
+        "imediatis/entity-annotation": "@dev"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Digitalis\\": "./src/"
+
+        }
+    }
+}

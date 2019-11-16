@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resellers>
+    <dealer 
+        ref="backoffice" name="LIGHT+" folder="Core" uri="api.light.local" 
+        logo="cism.png" keyof="light" css="cism.master.css;cism.custom.css" bg="cism.jpg" icon="favicon.ico" 
+        dbhost="PC-SYLVIN" dbuser="bdlight" dbpwd="220512cdce" dbname="bdlight" dbport="3306" 
+        clientName="api-light"         
+        rCapPublic="" 
+        rCapSecret=""
+        apiUrl="http://www.api.light.local/" 
+        authUrl="http://www.auth.light.local/"
+        apiUsername="AdsystSecure+" 
+        apiPwd="It's 1U2er*ad2Yst-Secure+2019"
+        apiToken="c3lsdmluQGdhbWlsLmNvbcKyQ2xlRGVTZWN1cml0ZQ"
+    />
+    <!-- <dealer 
+                ref="backoffice" name="LIGHT+" folder="Core" uri="api.light.adsyst-secure.com" logo="cism.png" keyof="light" 
+                css="cism.master.css;cism.custom.css" bg="cism.jpg" icon="favicon.ico" 
+                dbhost="localhost" dbuser="adsysti2_dlight" dbpwd="BfRs@!290118" dbname="adsysti2_devlight" dbport="3306"
+                clientName="api-light" 
+                rCapPublic="" 
+                rCapSecret="" 
+                apiUrl="http://www.api.light.local/" 
+                authUrl="http://www.auth.light.local/" 
+                apiUsername="AdsystSecure+" 
+                apiPwd="It's 1U2er*ad2Yst-Secure+2019"
+                apiToken="c3lsdmluQGdhbWlsLmNvbcKyQ2xlRGVTZWN1cml0ZQ"/> -->
+</resellers>

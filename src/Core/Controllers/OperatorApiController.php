@@ -127,6 +127,7 @@ class OperatorApiController extends ApiController
 		$output->data = !is_null($reponse)?$reponse->toArray():null;
 		$output->found = !is_null($output->data);
 		$output->message = is_null($output->data)?data_unavailable:Data::getErrorMessage();
+		
 		return $this->render($response,$output);
 	}
 
